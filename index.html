@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webTech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css ">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="desktop-nav">
+        <div class="logo">
+            Logo
+        </div>
+        <div class="navbar-items">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="navbar-toggle">
+            <i class="ri-menu-3-line" id="toggle_btn"></i>
+            <i class="ri-shopping-cart-line"></i>
+            <span id="cart-count" style="
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            padding: 0 6px;
+            font-size: 12px;
+            display: block;
+            "></span>
+        </div>
+    </nav>  
+    <nav class="mobile-nav">
+        <div class="sidebar-top-part">
+            <div>Logo</div>
+            <div id="close_btn">
+                <i class="ri-close-large-line"></i>
+            </div>
+        </div>
+        <div>
+        <p>Home</p>
+        <p>About</p>
+        <p>Services</p>
+        <p>Contactg</p>
+        </div>
+    </nav>
+    <!-- end -->
+
+    <!-- cards start -->
+    <div class="search-container"> 
+    <input type="text" id="searchProduct">
+    </div>
+    <div class="cards">
+    
+     </div>
+    <!-- end -->
+
+
+    <!-- contact start -->
+
+
+        <form id="form">
+            <h1>React Out</h1>
+            <div class="input-control">
+                    <label>Username</label>
+                    <input type="text" id="username">
+                    <div class="error"></div>
+            </div>
+            
+            <div class="input-control">
+                    <label>Email</label>
+                    <input type="text" id="email">
+                    <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                    <label>Password</label>
+                    <input type="password" id="password">
+                    <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                    <label>Password again</label>
+                    <input type="password" id="password2">
+                    <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    <!-- end -->
+
+     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/validations.js"></script>
+</body>
+</html>
